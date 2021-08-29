@@ -1,0 +1,14 @@
+.search-item{
+    font-size:16px;
+    padding: 16px 0px;
+}
+
+.search-item:hover{
+    border-radius: 0px 20px 20px 0px;
+    background: rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+.search-item span {
+    padding: 10px 20px;
+}

@@ -1,0 +1,30 @@
+.search-bar{
+    width: 100%;
+}
+
+.search-bar input{
+    width: calc( 100% - 60px );
+    padding:10px 10px 10px 40px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: #3c3e44;
+    color:white;
+    font-size: large;
+}
+
+.search-input{
+    position:relative;
+    font-size: large;
+}
+.search-input svg{
+    position: absolute;
+    left: 18px;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.search-bar label{
+    display: block;
+    margin: 5px 5px 0px 10px;
+    
+}

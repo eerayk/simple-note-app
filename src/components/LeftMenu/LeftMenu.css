@@ -1,0 +1,33 @@
+.left-menu {
+  min-width: 200px;
+  height: 500px;
+  flex-basis: 200px;
+  flex-grow: 1;
+  max-width: 350px;
+  min-height: calc(100vh - 80px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  color: white;
+  background-color: #242529;
+  border-right: 1px solid gray;
+}
+
+/* width */
+.left-menu::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+.left-menu::-webkit-scrollbar-track {
+  background: #303136;
+}
+
+/* Handle */
+.left-menu::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+.left-menu::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

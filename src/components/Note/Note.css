@@ -1,0 +1,45 @@
+.note {
+  flex: 1 1 200px;
+  max-width: 400px;
+  min-height: 200px;
+  max-height: 400px;
+  padding: 20px;
+  display: inline-block;
+  color: white;
+  border-radius: 12px;
+  box-shadow: 0px 0px 2px gray;
+  overflow: hidden;
+}
+
+.note:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 4px lightgray;
+}
+
+.note:hover .delete-note-button{
+  display:grid;
+}
+
+.note h3 {
+  width: calc(100% - 24px);
+  margin: 5px 0px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.note .delete-note-button {
+  background-color: rgba(255, 0, 0, 0.5);
+  border-radius: 5px;   
+  width: 24px;
+  height: 24px;
+  float:right;
+  display:none;
+  place-items:center;
+  margin: 5px 0px;
+}
+
+.note .delete-note-button:hover {
+  box-shadow: 0px 0px 5px white;
+}
+

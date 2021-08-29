@@ -1,0 +1,9 @@
+.note-container{
+    padding:10px;
+    background-color: #303136;
+    flex-basis:800px;
+    flex-grow:5;
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+}

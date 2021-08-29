@@ -1,0 +1,20 @@
+.new-note-button{
+    position:fixed;
+    bottom:30px;
+    right: 30px;
+    box-shadow: 0px 0px 2px darkgray;
+    border-radius: 16px;
+    padding: 16px;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.new-note-button svg{
+    margin-right: 5px;
+}
+
+.new-note-button:hover{
+    cursor:pointer;
+    background-color: rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 4px white;
+}

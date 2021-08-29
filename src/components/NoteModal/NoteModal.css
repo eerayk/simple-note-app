@@ -1,0 +1,64 @@
+.note-modal{
+    padding:20px;
+    border-radius: 10px;
+    min-width:600px;
+    max-width: 1200px;
+    min-height:400px;
+    position:fixed;
+    top: max(300px, 40%);
+    left:50%;
+    transform: translate(-50%, -50%);
+    z-index:99;
+    box-shadow: 0px 0px 3px gray;
+}
+
+.note-modal:hover{
+    box-shadow: 0px 0px 4px lightgray;
+}
+
+.note-modal .form-group label{
+    display:block;
+    color: white;
+    margin-bottom: 5px;
+}
+.note-modal .form-group textarea{
+    resize:none;
+    height: 250px;
+}
+
+.note-modal .form-group{
+    margin-bottom: 15px;
+}
+
+.note-modal .form-group input,textarea{
+    border:none;
+    border-radius:5px;
+    padding: 5px;
+    width: calc( 100% - 10px );
+    color:white;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.note-modal .form-group input:hover,textarea:hover{
+    box-shadow: 0px 0px 3px white;
+}
+
+.note-modal .modal-buttons input{
+    cursor:pointer;
+    float:right;
+    padding:5px 10px;
+    margin-left:5px;
+    border-radius: 5px;
+    background-color:white;
+}
+
+.note-modal .modal-buttons input:hover{
+    box-shadow: 0px 0px 3px white;
+}
+
+.error-message{
+    color:white;
+    background-color: rgba(255, 0, 0, 0.7);
+    border-radius: 10px;
+    padding:5px;
+    margin: 5px 0;
+}
